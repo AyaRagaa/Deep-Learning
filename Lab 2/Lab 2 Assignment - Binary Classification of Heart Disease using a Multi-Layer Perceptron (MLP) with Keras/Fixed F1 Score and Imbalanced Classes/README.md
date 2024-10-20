@@ -72,7 +72,7 @@ history = {
     key: history[key] + history1.history[key]
     for key in history
 }
-
+```
 ## 6. Evaluation  
 The model’s performance is evaluated using several metrics and visualizations, including the confusion matrix, classification report, and ROC-AUC curve.
 
