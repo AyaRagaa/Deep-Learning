@@ -104,8 +104,7 @@ To run the project locally, follow these steps:
 - **Confusion Matrix**:
   ```
  [[3384    1]
- [ 238    1]]
- ```
+ [ 238    1]]```
 - **Classification Report:**
 ```
                precision    recall  f1-score   support
