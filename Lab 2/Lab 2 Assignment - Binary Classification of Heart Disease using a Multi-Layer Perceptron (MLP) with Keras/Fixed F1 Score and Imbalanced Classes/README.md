@@ -80,8 +80,8 @@ The model’s performance is evaluated using several metrics and visualizations,
 The confusion matrix provides insights into the model’s performance by showing the counts of true positives, true negatives, false positives, and false negatives.  
 
 Confusion Matrix:
-[[TN  FP]
- [FN  TP]]
+ [[5779  600]
+ [ 520 5858]]
 
 ### 6.2 Classification Report
 The classification report summarizes key metrics such as precision, recall, F1-score, and support for both classes (0 and 1).
@@ -89,11 +89,13 @@ The classification report summarizes key metrics such as precision, recall, F1-s
 
 Classification Report:
                precision    recall  f1-score   support
-           0       0.xx      0.xx      0.xx     [count]
-           1       0.xx      0.xx      0.xx     [count]
-    accuracy                           0.xx     [total]
-   macro avg       0.xx      0.xx      0.xx     [total]
-weighted avg       0.xx      0.xx      0.xx     [total]
+
+           0       0.92      0.91      0.91      6379
+           1       0.91      0.92      0.91      6378
+
+    accuracy                           0.91     12757
+   macro avg       0.91      0.91      0.91     12757
+weighted avg       0.91      0.91      0.91     12757
 
 
 ### 6.3 ROC-AUC Curve
@@ -115,7 +117,7 @@ Visualizing the training and validation loss over epochs helps in diagnosing ove
 
 
 ## 8. Results
-- **Test Accuracy**: Achieved after 1000 epochs of training.
+- **Test Accuracy**: 91.22% Achieved after 1000 epochs of training.
 - **ROC-AUC Score**: Visualized using the ROC-AUC curve to assess classification performance.
 - **Loss Curves**: Plotted to observe the training and validation loss over time.
 
