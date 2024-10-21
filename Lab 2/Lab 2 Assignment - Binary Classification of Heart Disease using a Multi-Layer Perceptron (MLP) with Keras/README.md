@@ -102,9 +102,10 @@ To run the project locally, follow these steps:
 ![ROC-AUC Curve](ROC-AUCCurvePre.png)
 
 - **Confusion Matrix**:
-  ```bash
+```
  [[3384    1]
- [ 238    1]]```
+ [ 238    1]]
+```
 - **Classification Report:**
 ```
                precision    recall  f1-score   support
@@ -128,9 +129,12 @@ weighted avg       0.91      0.93      0.90      3624
 ![ROC-AUC Curve](ROC-AUCCurvePost.png)
 
 - **Confusion Matrix**:
+```
  [[3379    6]
  [ 239    0]]
+```
 - **Classification Report:**
+```
                precision    recall  f1-score   support
 
            0       0.93      1.00      0.97      3385
@@ -139,6 +143,8 @@ weighted avg       0.91      0.93      0.90      3624
     accuracy                           0.93      3624
    macro avg       0.47      0.50      0.48      3624
 weighted avg       0.87      0.93      0.90      3624
+```
+
 - **Loss Plot:**
 
 ![Training Vs Validation Loss](TrainingVsValidationLossPost.png)
