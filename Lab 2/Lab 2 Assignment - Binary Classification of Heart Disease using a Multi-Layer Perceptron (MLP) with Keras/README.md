@@ -1,5 +1,3 @@
-# Creating the README.md file with the provided content
-readme_content = """
 # Heart Disease Prediction using Neural Networks
 
 This project aims to predict the occurrence of heart disease using a neural network model built with Keras and TensorFlow. The dataset used is `heart_disease_health_indicators.csv`. The workflow involves data preprocessing, model training, hyperparameter tuning, and performance evaluation using metrics like ROC-AUC and confusion matrices.
@@ -101,7 +99,7 @@ To run the project locally, follow these steps:
 **Initial Model Performance:**
 - **Test Accuracy:** 93.41%
 - **ROC-AUC Curve:** 
-![ROC-AUC Curve](ROC-AUC Curve Pre.png)
+![ROC-AUC Curve](ROC-AUCCurvePre.png)
 
 - **Confusion Matrix**:
  [[3384    1]
@@ -121,7 +119,7 @@ weighted avg       0.91      0.93      0.90      3624
 **Tuned Model Performance:**
 - **Test Accuracy:** 93.24%
 - **ROC-AUC Curve:**
-![ROC-AUC Curve](ROC-AUC Curve Post.png)
+![ROC-AUC Curve](ROC-AUCCurvePost.png)
 
 - **Confusion Matrix**:
  [[3379    6]
