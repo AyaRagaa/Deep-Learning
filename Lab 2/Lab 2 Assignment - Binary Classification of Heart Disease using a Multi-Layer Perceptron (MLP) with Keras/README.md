@@ -102,7 +102,7 @@ To run the project locally, follow these steps:
 ![ROC-AUC Curve](ROC-AUCCurvePre.png)
 
 - **Confusion Matrix**:
-  ```
+  ```bash
  [[3384    1]
  [ 238    1]]```
 - **Classification Report:**
@@ -116,12 +116,15 @@ To run the project locally, follow these steps:
    macro avg       0.72      0.50      0.49      3624
 weighted avg       0.91      0.93      0.90      3624
 ```
+
 - **Loss Plot:**
+
 ![Training Vs Validation Loss](TrainingVsValidationLossPre.png)
 
 **Tuned Model Performance:**
 - **Test Accuracy:** 93.24%
 - **ROC-AUC Curve:**
+
 ![ROC-AUC Curve](ROC-AUCCurvePost.png)
 
 - **Confusion Matrix**:
@@ -137,5 +140,6 @@ weighted avg       0.91      0.93      0.90      3624
    macro avg       0.47      0.50      0.48      3624
 weighted avg       0.87      0.93      0.90      3624
 - **Loss Plot:**
+
 ![Training Vs Validation Loss](TrainingVsValidationLossPost.png)
 
